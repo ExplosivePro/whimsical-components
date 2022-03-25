@@ -1,10 +1,11 @@
 import {WNodeProps} from './type'
-import { Handle, HandleType, Position } from "react-flow-renderer"
+import WHandle from '../WHandle'
+import { HandleType, Position } from "react-flow-renderer"
 
 export default function WNode(props: WNodeProps) {
     return (
         <div className="w-node">
-            <Handle
+            <WHandle
                 type='source'
                 position={Position.Top}
             />

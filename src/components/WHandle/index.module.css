@@ -1,0 +1,24 @@
+.handle {
+    background: white;
+    border: 1px solid #b8babc;
+    border-radius: 2px;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+.handle:hover {
+    background: #AA6ED5 ;
+    border: 1px solid #AA6ED5;
+}
+
+.handle_h {
+    cursor: e-resize;
+}
+
+.handle_v {
+    cursor: n-resize;
+}
+
+.handle_vh {
+    cursor: ne-resize;
+}
