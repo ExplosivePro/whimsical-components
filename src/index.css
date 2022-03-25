@@ -26,3 +26,27 @@ code {
 .react-flow {
   overflow: visible !important;
 }
+
+.react-flow .react-flow__handle.connectable {
+  cursor: ne-resize;
+}
+
+.react-flow__handle.connectable.handle_l, .react-flow__handle.connectable.handle_r {
+  cursor: e-resize;
+}
+
+.react-flow__handle.connectable.handle_tm, .react-flow__handle.connectable.handle_bm {
+  cursor: n-resize;
+}
+
+.react-flow__handle.connectable.handle_tl, .react-flow__handle.connectable.handle_br {
+  cursor: se-resize;
+}
+
+.react-flow .react-flow__node .react-flow__handle-left {
+  left: -5px;
+}
+
+.react-flow .react-flow__node .react-flow__handle-right {
+  right: -5px;
+}

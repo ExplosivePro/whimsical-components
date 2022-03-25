@@ -10,15 +10,3 @@
     background: #AA6ED5 ;
     border: 1px solid #AA6ED5;
 }
-
-.handle_h {
-    cursor: e-resize;
-}
-
-.handle_v {
-    cursor: n-resize;
-}
-
-.handle_vh {
-    cursor: ne-resize;
-}
