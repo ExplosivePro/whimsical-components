@@ -20,33 +20,10 @@ code {
 .items-center { align-items: center; }
 .justify-center { justify-content: center; }
 .text-center { text-align: center; }
-
-
+.w-min-40 { min-width: 40px; }
+.h-min-40 { min-height: 40px }
+.overflow-hidden { overflow: hidden; }
 /* SECTION FOR REACT-FLOW PLUGIN */
 .react-flow {
   overflow: visible !important;
-}
-
-.react-flow .react-flow__handle.connectable {
-  cursor: ne-resize;
-}
-
-.react-flow__handle.connectable.handle_l, .react-flow__handle.connectable.handle_r {
-  cursor: e-resize;
-}
-
-.react-flow__handle.connectable.handle_tm, .react-flow__handle.connectable.handle_bm {
-  cursor: n-resize;
-}
-
-.react-flow__handle.connectable.handle_tl, .react-flow__handle.connectable.handle_br {
-  cursor: se-resize;
-}
-
-.react-flow .react-flow__node .react-flow__handle-left {
-  left: -5px;
-}
-
-.react-flow .react-flow__node .react-flow__handle-right {
-  right: -5px;
 }
