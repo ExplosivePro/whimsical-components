@@ -13,7 +13,7 @@ export default function WHandle({className, direction, onDrag, onDragStart}: WHa
         )
     }
     
-    let customClass = [className, styles.handle, styles[`handle_${direction}`]].join(" ")
+    let customClass = [className, styles.w_handle, styles.handle, styles[`handle_${direction}`]].join(" ")
     return (
         <Handle draggable 
             type='source'

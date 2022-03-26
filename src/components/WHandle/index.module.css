@@ -1,4 +1,4 @@
-.handle {
+.w_handle.handle {
     background: white;
     border: 1px solid #b8babc;
     border-radius: 2px;
@@ -6,39 +6,39 @@
     position: absolute;
     width: 10px;
 }
-.handle:hover {
+.w_handle.handle:hover {
     background: #AA6ED5 ;
     border: 1px solid #AA6ED5;
 }
-.handle_tl {
+.w_handle.handle_tl {
     top: -5px;
     left: 0px;
     position: absolute;
 }
 
-.handle_tr {
+.w_handle.handle_tr {
     top: -5px;
     position: absolute;
     left: 100%;
 }
 
-.handle_bl {
+.w_handle.handle_bl {
     bottom: -5px;
     left: 0px;
     position: absolute;
 }
 
-.handle_br {
+.w_handle.handle_br {
     bottom: -5px;
     position: absolute;
     left: 100%;
 }
 
-.handle_ml {
+.w_handle.handle_ml {
     left: -5px;
 }
 
-.handle_mr {
+.w_handle.handle_mr {
     right: -5px;
 }
 
