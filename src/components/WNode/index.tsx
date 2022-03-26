@@ -46,7 +46,7 @@ export default memo(({id, selected, xPos, yPos, data, className }: WNodeProps) =
     }
     const handleDrag = (event: React.DragEvent<HTMLDivElement>) => {
         let direction = event.currentTarget.dataset.direction;
-        if (!direction || event.clientX === 0 && event.clientX === 0)
+        if (!direction || (event.clientX === 0 && event.clientX === 0))
             return
             
 

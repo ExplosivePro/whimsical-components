@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
-import { useCallback, useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import ReactFlow, {
-    Node,
     useNodesState
 } from 'react-flow-renderer';
 import WNode from 'src/components/WNode';
